@@ -14,11 +14,9 @@ function rotateButton(e) {
         const radians = Math.atan2(e.clientX - centerX, e.clientY - centerY);
         let degree = (radians * (180 / Math.PI) * -1) + 180;
         if (degree >= 135 && degree <= 180) {
-            degree = 135
-        } else {
-            if (degree <= 225 && degree >= 180) {
-                degree = 225
-            }
+            degree = 135;
+        } else if (degree <= 225 && degree >= 180) {
+            degree = 225;
         }
         button.style.transform = "rotate("+degree+"deg)";
     }
