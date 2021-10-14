@@ -1,0 +1,53 @@
+
+.button {
+    height: 20em;
+    width: 20em;
+    transform: rotate(0);
+    transform-origin: center;
+}
+
+.circle {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.stroke-container {
+    height: 50%;
+    width: 20px;
+    position: absolute;
+    left: calc(50% - 10px);
+    top: 50%;
+    transform-origin: top;
+    transform: rotate(180deg);
+    display: flex;
+}
+
+.stroke {
+    width: 100%;
+    background: black;
+    height: 70%;
+    transform: rotate(0deg);
+    align-self: flex-end;
+}
+
+.small {
+    height: 10%;
+}
+
+.rotate-120 {
+    transform: rotate(120deg);
+}
+
+.rotate-150 {
+    transform: rotate(150deg);
+}
+
+.rotate-210 {
+    transform: rotate(210deg);
+}
+
+.rotate-240 {
+    transform: rotate(240deg);
+}
