@@ -18,6 +18,7 @@ function rotateButton(e) {
         } else if (degree <= 225 && degree >= 180) {
             degree = 225;
         }
+
         button.style.transform = "rotate("+degree+"deg)";
     }
 }
